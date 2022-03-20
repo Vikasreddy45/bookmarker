@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar-container{
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar{
+    margin-bottom: 20px;
+}
+.input-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3em 0;
+    width: 100%;
+    margin: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input,#button{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    width: 500px;
+}
+#button{
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    width: 150px;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+section{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.container{
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+    padding-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.bookmark{
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+button{
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+.delete{
+    background-color: red;
+    color: white;
+}
+img{
+    height:300px;
+    width: 300px;
+}
